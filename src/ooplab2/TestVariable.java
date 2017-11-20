@@ -44,9 +44,9 @@ public class TestVariable {
 
         //short cut operator
         int z = 10;
-        int a = ++z;
+        int t = ++z;
         System.out.println(z);
-        System.out.println(a);
+        System.out.println(t);
 
 
 
