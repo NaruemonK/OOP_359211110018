@@ -12,7 +12,7 @@ public class CalGrade {
    // score 80-100 grade A
   public static void main(String[] args) throws IOException {
       BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-      System.out.println("Enter your score : ");
+      System.out.print("Enter your score : ");
       int score = Integer.parseInt(reader.readLine());
             if(score <= 49){
           System.out.println("grade : F");
