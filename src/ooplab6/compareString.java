@@ -8,7 +8,7 @@ public class compareString {
 
         //แบบ1 (==)
         String m = "Hello";
-        String n = "Hello";
+        String n = "Helloo";
         if(m==n)System.out.println("yes.");
         else System.out.println("no.");
 
