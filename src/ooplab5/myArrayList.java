@@ -20,6 +20,6 @@ public class myArrayList {
         System.out.println(myList);
         myList.remove("Hello");//ลบทิ้ง
         System.out.println(myList);
-        System.out.println(myList.indexOf(100));//หาค่า100ว่าอยู่ตำแหน่งใดใน List
+        System.out.println(myList.indexOf(100));//หาค่า100ว่าอยู่ตำแหน่งใดใน
     }//main
 }//class
