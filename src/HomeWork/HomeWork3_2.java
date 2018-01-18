@@ -15,7 +15,7 @@ public class HomeWork3_2 {
         System.out.println("getName : "+ name);
         System.out.println("getSalary : "+ salary);
         System.out.println("getOverTime :"+over);
-        System.out.println("Tax is : " + w.calculatetax(salary,over));
+        System.out.println("Tax is : " + w.calculatetax(salary,over)+"%");
 
     }
 
