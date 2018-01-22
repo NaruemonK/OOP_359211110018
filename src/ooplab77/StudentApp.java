@@ -1,5 +1,7 @@
 package ooplab77;
 
+import java.util.Scanner;
+
 public class StudentApp {
     public static void main(String[] args) {
         //create object as Student เก็บค่าข้อมูลต่างๆ ของ oj ไว้
@@ -14,7 +16,28 @@ public class StudentApp {
         showData(s1); //สร้าง method showData เรียกชื่อที่ 1
         showData(s2); //เรียกชื่อที่ 2
 
+        Student s3 = new Student();
+        s3 = inputData(s3);
+
+
+
     }//main
+
+    private static Student inputData(Student s) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter student info: ");
+        System.out.print("Enter student ID: ");
+        s.setId(scanner.nextLine()); //อ่านค่าข้อมูลที่ user พิมเข้ามา
+        System.out.print("Enter student name: ");
+        s.setName(scanner.nextLine());//อ่านค่าข้อมูลที่ user พิมเข้ามา
+        System.out.print("Enter student major: ");
+        s.setMajor(scanner.nextLine());//อ่านค่าข้อมูลที่ user พิมเข้ามา
+        System.out.print("Enter student group: ");
+        s.setGroup(scanner.nextLine());//อ่านค่าข้อมูลที่ user พิมเข้ามา
+
+        return s;
+
+    }//inputData
 
     private static void showData(Student s) {   //Method ShowData
         System.out.println("Student info: ");
