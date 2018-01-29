@@ -7,7 +7,7 @@ public class ShapeApp {
         System.out.println("Length: "+rectangle.getLength());
         System.out.println("Arae: "+rectangle.getArae());
 
-        Triangle triangle = new Triangle(20,0,30);
+        Triangle triangle = new Triangle(10,0,30);
         System.out.println(triangle.getArae());
 
     }//main
