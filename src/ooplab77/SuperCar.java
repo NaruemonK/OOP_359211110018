@@ -49,9 +49,20 @@ public class SuperCar {
         this.country = country;
     }
 
-    public SuperCar (String b, String col, String e, String m, String con){
+
+    public String getSuperCarInfo() {  //เปลี่ยนชื่อ Methord
+        return "SuperCar{" +
+                "carbrand='" + carbrand + '\'' +
+                ", carcolor='" + carcolor + '\'' +
+                ", carenginesize='" + carenginesize + '\'' +
+                ", maxspeed='" + maxspeed + '\'' +
+                ", country='" + country + '\'' +
+                '}';
+    }
+
+    public SuperCar (String b, String c, String e, String m, String con){
         this.carbrand = b;
-        this.carcolor = col;
+        this.carcolor = c;
         this.carenginesize = e;
         this.maxspeed = m;
         this.country = con;
