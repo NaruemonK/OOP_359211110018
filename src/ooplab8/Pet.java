@@ -1,12 +1,12 @@
 package ooplab8;
 
-public class Pet {
-    private String name;
-    private String nairColor;
-    private String gender;
-    private int age;
+public abstract class Pet {
+        private String name;
+        private String nairColor;
+        private String gender;
+        private int age;
 
-    public void makenoise(){}
+    protected abstract void makenoise();    //ประกาศตั้งไว้เฉยๆ
 
     //constructor   //กดAlt + Insert
 
